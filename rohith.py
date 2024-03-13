@@ -10,7 +10,7 @@ import numpy as np
 
 
 
-df = pd.read_csv("https://github.com/RohithMukkamula/GENAI/blob/main/concatenated_df1.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/RohithMukkamula/GENAI/main/concatenated_df1.csv")
 
 # Sidebar selection
 year_selected = st.sidebar.selectbox("Select Year", [0] + df['year'].unique().tolist())
