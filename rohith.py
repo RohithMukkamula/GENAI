@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 
 
-df = pd.read_csv("C:/Users/rohith.mukkamula/Downloads/GenAiCus/concatenated_df1.csv")
+df = pd.read_csv("https://github.com/RohithMukkamula/GENAI/blob/main/concatenated_df1.csv")
 
 # Sidebar selection
 year_selected = st.sidebar.selectbox("Select Year", [0] + df['year'].unique().tolist())
