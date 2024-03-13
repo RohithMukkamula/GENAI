@@ -6,11 +6,7 @@ import numpy as np
 
 
 
-from wordcloud import WordCloud, STOPWORDS
-from google.cloud import bigquery
 
-import warnings
-warnings.filterwarnings("ignore")
 
 
 
